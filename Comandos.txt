@@ -4,7 +4,7 @@ cd .\Repository\
 git clone https://github.com/SElCrsada/Hola-Mundo.git
 cd .\Hola-Mundo\
 New-Item README.md
-git add .\README.md
+git add .
 git commit -m "Commit inicial"
 git push origin main
 git pull
@@ -13,4 +13,9 @@ dotnet new console -n Program --use-program-main
 dotnet run
 git add .
 git commit -m "Proyecto Hola Mundo"
+git push origin main
+
+New-Item Comandos.txt
+git add .
+git commit -m "Comandos"
 git push origin main
