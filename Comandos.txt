@@ -1,0 +1,16 @@
+https://github.com/SElCrsada/Hola-Mundo.git
+mkdir .\Repository\
+cd .\Repository\
+git clone https://github.com/SElCrsada/Hola-Mundo.git
+cd .\Hola-Mundo\
+New-Item README.md
+git add .\README.md
+git commit -m "Commit inicial"
+git push origin main
+git pull
+
+dotnet new console -n Program --use-program-main
+dotnet run
+git add .
+git commit -m "Proyecto Hola Mundo"
+git push origin main
